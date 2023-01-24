@@ -1,6 +1,8 @@
-﻿namespace FinancialTracker.Models
+﻿using FinancialTracker.Models.Enumerables;
+
+namespace FinancialTracker.Models
 {
-	public class Revenue : Transaction
+    public class Revenue : Transaction
 	{
 		public Revenue(RevenueCategory _revenueCategory)
 		{

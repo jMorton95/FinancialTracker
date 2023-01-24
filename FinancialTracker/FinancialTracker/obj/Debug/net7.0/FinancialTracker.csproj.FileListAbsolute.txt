@@ -29,3 +29,34 @@ C:\Users\JoshMorton\Documents\_Personal\FinancialTracker\FinancialTracker\Financ
 C:\Users\JoshMorton\Documents\_Personal\FinancialTracker\FinancialTracker\FinancialTracker\obj\Debug\net7.0\FinancialTracker.pdb
 C:\Users\JoshMorton\Documents\_Personal\FinancialTracker\FinancialTracker\FinancialTracker\obj\Debug\net7.0\FinancialTracker.genruntimeconfig.cache
 C:\Users\JoshMorton\Documents\_Personal\FinancialTracker\FinancialTracker\FinancialTracker\obj\Debug\net7.0\ref\FinancialTracker.dll
+D:\1Programming\Personal Projects\financialtracker\FinancialTracker\FinancialTracker\bin\Debug\net7.0\appsettings.Development.json
+D:\1Programming\Personal Projects\financialtracker\FinancialTracker\FinancialTracker\bin\Debug\net7.0\appsettings.json
+D:\1Programming\Personal Projects\financialtracker\FinancialTracker\FinancialTracker\bin\Debug\net7.0\FinancialTracker.staticwebassets.runtime.json
+D:\1Programming\Personal Projects\financialtracker\FinancialTracker\FinancialTracker\bin\Debug\net7.0\FinancialTracker.exe
+D:\1Programming\Personal Projects\financialtracker\FinancialTracker\FinancialTracker\bin\Debug\net7.0\FinancialTracker.deps.json
+D:\1Programming\Personal Projects\financialtracker\FinancialTracker\FinancialTracker\bin\Debug\net7.0\FinancialTracker.runtimeconfig.json
+D:\1Programming\Personal Projects\financialtracker\FinancialTracker\FinancialTracker\bin\Debug\net7.0\FinancialTracker.dll
+D:\1Programming\Personal Projects\financialtracker\FinancialTracker\FinancialTracker\bin\Debug\net7.0\FinancialTracker.pdb
+D:\1Programming\Personal Projects\financialtracker\FinancialTracker\FinancialTracker\obj\Debug\net7.0\FinancialTracker.csproj.AssemblyReference.cache
+D:\1Programming\Personal Projects\financialtracker\FinancialTracker\FinancialTracker\obj\Debug\net7.0\FinancialTracker.GeneratedMSBuildEditorConfig.editorconfig
+D:\1Programming\Personal Projects\financialtracker\FinancialTracker\FinancialTracker\obj\Debug\net7.0\FinancialTracker.AssemblyInfoInputs.cache
+D:\1Programming\Personal Projects\financialtracker\FinancialTracker\FinancialTracker\obj\Debug\net7.0\FinancialTracker.AssemblyInfo.cs
+D:\1Programming\Personal Projects\financialtracker\FinancialTracker\FinancialTracker\obj\Debug\net7.0\FinancialTracker.csproj.CoreCompileInputs.cache
+D:\1Programming\Personal Projects\financialtracker\FinancialTracker\FinancialTracker\obj\Debug\net7.0\FinancialTracker.MvcApplicationPartsAssemblyInfo.cache
+D:\1Programming\Personal Projects\financialtracker\FinancialTracker\FinancialTracker\obj\Debug\net7.0\FinancialTracker.RazorAssemblyInfo.cache
+D:\1Programming\Personal Projects\financialtracker\FinancialTracker\FinancialTracker\obj\Debug\net7.0\FinancialTracker.RazorAssemblyInfo.cs
+D:\1Programming\Personal Projects\financialtracker\FinancialTracker\FinancialTracker\obj\Debug\net7.0\staticwebassets\msbuild.FinancialTracker.Microsoft.AspNetCore.StaticWebAssets.props
+D:\1Programming\Personal Projects\financialtracker\FinancialTracker\FinancialTracker\obj\Debug\net7.0\staticwebassets\msbuild.build.FinancialTracker.props
+D:\1Programming\Personal Projects\financialtracker\FinancialTracker\FinancialTracker\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.FinancialTracker.props
+D:\1Programming\Personal Projects\financialtracker\FinancialTracker\FinancialTracker\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.FinancialTracker.props
+D:\1Programming\Personal Projects\financialtracker\FinancialTracker\FinancialTracker\obj\Debug\net7.0\staticwebassets.pack.json
+D:\1Programming\Personal Projects\financialtracker\FinancialTracker\FinancialTracker\obj\Debug\net7.0\staticwebassets.build.json
+D:\1Programming\Personal Projects\financialtracker\FinancialTracker\FinancialTracker\obj\Debug\net7.0\staticwebassets.development.json
+D:\1Programming\Personal Projects\financialtracker\FinancialTracker\FinancialTracker\obj\Debug\net7.0\scopedcss\Pages\Shared\_Layout.cshtml.rz.scp.css
+D:\1Programming\Personal Projects\financialtracker\FinancialTracker\FinancialTracker\obj\Debug\net7.0\scopedcss\bundle\FinancialTracker.styles.css
+D:\1Programming\Personal Projects\financialtracker\FinancialTracker\FinancialTracker\obj\Debug\net7.0\scopedcss\projectbundle\FinancialTracker.bundle.scp.css
+D:\1Programming\Personal Projects\financialtracker\FinancialTracker\FinancialTracker\obj\Debug\net7.0\FinancialTracker.dll
+D:\1Programming\Personal Projects\financialtracker\FinancialTracker\FinancialTracker\obj\Debug\net7.0\refint\FinancialTracker.dll
+D:\1Programming\Personal Projects\financialtracker\FinancialTracker\FinancialTracker\obj\Debug\net7.0\FinancialTracker.pdb
+D:\1Programming\Personal Projects\financialtracker\FinancialTracker\FinancialTracker\obj\Debug\net7.0\FinancialTracker.genruntimeconfig.cache
+D:\1Programming\Personal Projects\financialtracker\FinancialTracker\FinancialTracker\obj\Debug\net7.0\ref\FinancialTracker.dll
