@@ -60,3 +60,6 @@ D:\1Programming\Personal Projects\financialtracker\FinancialTracker\FinancialTra
 D:\1Programming\Personal Projects\financialtracker\FinancialTracker\FinancialTracker\obj\Debug\net7.0\FinancialTracker.pdb
 D:\1Programming\Personal Projects\financialtracker\FinancialTracker\FinancialTracker\obj\Debug\net7.0\FinancialTracker.genruntimeconfig.cache
 D:\1Programming\Personal Projects\financialtracker\FinancialTracker\FinancialTracker\obj\Debug\net7.0\ref\FinancialTracker.dll
+C:\Users\JoshMorton\Documents\_Personal\FinancialTracker\FinancialTracker\FinancialTracker\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\JoshMorton\Documents\_Personal\FinancialTracker\FinancialTracker\FinancialTracker\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\JoshMorton\Documents\_Personal\FinancialTracker\FinancialTracker\FinancialTracker\obj\Debug\net7.0\FinancialTracker.csproj.CopyComplete

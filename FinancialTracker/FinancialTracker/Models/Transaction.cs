@@ -1,23 +1,19 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using FinancialTracker.Enumerables;
+using Microsoft.EntityFrameworkCore;
+using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace FinancialTracker.Models
 {
-	public class Transaction
+    public class Transaction : BaseModel
 	{
-		[Required]
-		private int _Id { get; set; }
-        private int _Amount { get; set; } = 0;
-        private string _Name { get; set; } = string.Empty;
-        private DateTime _Date {get; set; } = DateTime.Now;
-        protected string _Category { get; set; } = string.Empty;
-
-		public Transaction(int id, int amount, string name, DateTime date)
-		{
-			_Id = id;
-			_Amount = amount;
-			_Name = name;
-			_Date = date;
-		}
-
+        [Required, Precision(9, 2)]
+        public double Amount { get; } = 0;
+        [Required, Column(TypeName = "DateTime2")]
+        public DateTime Date { get; } = DateTime.Now;
+        [MaxLength(50)]
+        public string Name { get; } = string.Empty;
+        [MaxLength(50)]
+        public TransactionCategory Category { get; }
 	}
 }
