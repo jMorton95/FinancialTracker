@@ -10,8 +10,11 @@ namespace FinancialTracker.Models
         [Required, Column(TypeName = "DateTime2")]
         public DateTime DateOfBirth { get; set; }
         [Required, MaxLength(50)]
-        public string Username { get; set; } = string.Empty;
-        [Required]
-        public Guid Password { get; set; }
+        public string? Username { get; set; }
+        [Required, MaxLength(50)]
+        public string? GivenName {  get; set; }
+        [Required, MaxLength(100)]
+        public string? Password { get; set; }
+        public List<Account>? Accounts { get; set; }
     }
 }

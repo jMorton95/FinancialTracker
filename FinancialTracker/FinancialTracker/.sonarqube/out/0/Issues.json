@@ -12,6 +12,117 @@
       },
       "results": [
         {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "Non-nullable property 'Users' must contain a non-null value when exiting constructor. Consider declaring the property as nullable.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/JoshMorton/Documents/_Personal/personalRepos/FinancialTracker/FinancialTracker/FinancialTracker/Models/FinanceDbContext.cs",
+                "region": {
+                  "startLine": 7,
+                  "startColumn": 16,
+                  "endLine": 7,
+                  "endColumn": 32
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/JoshMorton/Documents/_Personal/personalRepos/FinancialTracker/FinancialTracker/FinancialTracker/Models/FinanceDbContext.cs",
+                "region": {
+                  "startLine": 10,
+                  "startColumn": 28,
+                  "endLine": 10,
+                  "endColumn": 33
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "Non-nullable property 'Accounts' must contain a non-null value when exiting constructor. Consider declaring the property as nullable.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/JoshMorton/Documents/_Personal/personalRepos/FinancialTracker/FinancialTracker/FinancialTracker/Models/FinanceDbContext.cs",
+                "region": {
+                  "startLine": 7,
+                  "startColumn": 16,
+                  "endLine": 7,
+                  "endColumn": 32
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/JoshMorton/Documents/_Personal/personalRepos/FinancialTracker/FinancialTracker/FinancialTracker/Models/FinanceDbContext.cs",
+                "region": {
+                  "startLine": 11,
+                  "startColumn": 31,
+                  "endLine": 11,
+                  "endColumn": 39
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "Non-nullable property 'Transactions' must contain a non-null value when exiting constructor. Consider declaring the property as nullable.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/JoshMorton/Documents/_Personal/personalRepos/FinancialTracker/FinancialTracker/FinancialTracker/Models/FinanceDbContext.cs",
+                "region": {
+                  "startLine": 7,
+                  "startColumn": 16,
+                  "endLine": 7,
+                  "endColumn": 32
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/JoshMorton/Documents/_Personal/personalRepos/FinancialTracker/FinancialTracker/FinancialTracker/Models/FinanceDbContext.cs",
+                "region": {
+                  "startLine": 12,
+                  "startColumn": 35,
+                  "endLine": 12,
+                  "endColumn": 47
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
           "ruleId": "CS1998",
           "level": "warning",
           "message": "This async method lacks 'await' operators and will run synchronously. Consider using the 'await' operator to await non-blocking API calls, or 'await Task.Run(...)' to do CPU-bound work on a background thread.",
@@ -22,54 +133,6 @@
             {
               "resultFile": {
                 "uri": "Microsoft.NET.Sdk.Razor.SourceGenerators/Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator/Pages_Index_cshtml.g.cs",
-                "region": {
-                  "startLine": 29,
-                  "startColumn": 67,
-                  "endLine": 29,
-                  "endColumn": 79
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "CS1998",
-          "level": "warning",
-          "message": "This async method lacks 'await' operators and will run synchronously. Consider using the 'await' operator to await non-blocking API calls, or 'await Task.Run(...)' to do CPU-bound work on a background thread.",
-          "suppressionStates": [
-            "suppressedInSource"
-          ],
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "Microsoft.NET.Sdk.Razor.SourceGenerators/Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator/Pages__ViewImports_cshtml.g.cs",
-                "region": {
-                  "startLine": 29,
-                  "startColumn": 67,
-                  "endLine": 29,
-                  "endColumn": 79
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "CS1998",
-          "level": "warning",
-          "message": "This async method lacks 'await' operators and will run synchronously. Consider using the 'await' operator to await non-blocking API calls, or 'await Task.Run(...)' to do CPU-bound work on a background thread.",
-          "suppressionStates": [
-            "suppressedInSource"
-          ],
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "Microsoft.NET.Sdk.Razor.SourceGenerators/Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator/Pages_Privacy_cshtml.g.cs",
                 "region": {
                   "startLine": 29,
                   "startColumn": 67,
@@ -118,6 +181,54 @@
             {
               "resultFile": {
                 "uri": "Microsoft.NET.Sdk.Razor.SourceGenerators/Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator/Pages__ViewStart_cshtml.g.cs",
+                "region": {
+                  "startLine": 29,
+                  "startColumn": 67,
+                  "endLine": 29,
+                  "endColumn": 79
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "This async method lacks 'await' operators and will run synchronously. Consider using the 'await' operator to await non-blocking API calls, or 'await Task.Run(...)' to do CPU-bound work on a background thread.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "Microsoft.NET.Sdk.Razor.SourceGenerators/Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator/Pages_Privacy_cshtml.g.cs",
+                "region": {
+                  "startLine": 29,
+                  "startColumn": 67,
+                  "endLine": 29,
+                  "endColumn": 79
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "This async method lacks 'await' operators and will run synchronously. Consider using the 'await' operator to await non-blocking API calls, or 'await Task.Run(...)' to do CPU-bound work on a background thread.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "Microsoft.NET.Sdk.Razor.SourceGenerators/Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator/Pages__ViewImports_cshtml.g.cs",
                 "region": {
                   "startLine": 29,
                   "startColumn": 67,
@@ -422,30 +533,6 @@
         {
           "ruleId": "CS0169",
           "level": "warning",
-          "message": "The field 'Pages_Shared__Layout.__tagHelperStringValueBuffer' is never used",
-          "suppressionStates": [
-            "suppressedInSource"
-          ],
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "Microsoft.NET.Sdk.Razor.SourceGenerators/Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator/Pages_Shared__Layout_cshtml.g.cs",
-                "region": {
-                  "startLine": 46,
-                  "startColumn": 24,
-                  "endLine": 46,
-                  "endColumn": 52
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 3
-          }
-        },
-        {
-          "ruleId": "CS0169",
-          "level": "warning",
           "message": "The field 'Pages_Shared__ValidationScriptsPartial.__tagHelperStringValueBuffer' is never used",
           "suppressionStates": [
             "suppressedInSource"
@@ -468,13 +555,58 @@
           }
         },
         {
+          "ruleId": "CS0169",
+          "level": "warning",
+          "message": "The field 'Pages_Shared__Layout.__tagHelperStringValueBuffer' is never used",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "Microsoft.NET.Sdk.Razor.SourceGenerators/Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator/Pages_Shared__Layout_cshtml.g.cs",
+                "region": {
+                  "startLine": 46,
+                  "startColumn": 24,
+                  "endLine": 46,
+                  "endColumn": 52
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 3
+          }
+        },
+        {
           "ruleId": "S4487",
           "level": "warning",
           "message": "Remove this unread private field '_logger' or refactor the code to use its value.",
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///C:/Users/JoshMorton/Documents/_Personal/FinancialTracker/FinancialTracker/FinancialTracker/Pages/Privacy.cshtml.cs",
+                "uri": "file:///C:/Users/JoshMorton/Documents/_Personal/personalRepos/FinancialTracker/FinancialTracker/FinancialTracker/Pages/Index.cshtml.cs",
+                "region": {
+                  "startLine": 8,
+                  "startColumn": 40,
+                  "endLine": 8,
+                  "endColumn": 47
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S4487",
+          "level": "warning",
+          "message": "Remove this unread private field '_logger' or refactor the code to use its value.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/JoshMorton/Documents/_Personal/personalRepos/FinancialTracker/FinancialTracker/FinancialTracker/Pages/Privacy.cshtml.cs",
                 "region": {
                   "startLine": 8,
                   "startColumn": 42,
@@ -495,28 +627,7 @@
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///C:/Users/JoshMorton/Documents/_Personal/FinancialTracker/FinancialTracker/FinancialTracker/Pages/Index.cshtml.cs",
-                "region": {
-                  "startLine": 8,
-                  "startColumn": 40,
-                  "endLine": 8,
-                  "endColumn": 47
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S4487",
-          "level": "warning",
-          "message": "Remove this unread private field '_logger' or refactor the code to use its value.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/Users/JoshMorton/Documents/_Personal/FinancialTracker/FinancialTracker/FinancialTracker/Pages/Error.cshtml.cs",
+                "uri": "file:///C:/Users/JoshMorton/Documents/_Personal/personalRepos/FinancialTracker/FinancialTracker/FinancialTracker/Pages/Error.cshtml.cs",
                 "region": {
                   "startLine": 15,
                   "startColumn": 40,
@@ -537,54 +648,12 @@
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///C:/Users/JoshMorton/Documents/_Personal/FinancialTracker/FinancialTracker/FinancialTracker/Pages/Error.cshtml.cs",
+                "uri": "file:///C:/Users/JoshMorton/Documents/_Personal/personalRepos/FinancialTracker/FinancialTracker/FinancialTracker/Pages/Error.cshtml.cs",
                 "region": {
                   "startLine": 8,
                   "startColumn": 3,
                   "endLine": 8,
                   "endColumn": 25
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S3604",
-          "level": "warning",
-          "message": "Remove the member initializer, all constructors set an initial value for the member.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/Users/JoshMorton/Documents/_Personal/FinancialTracker/FinancialTracker/FinancialTracker/Models/Transaction.cs",
-                "region": {
-                  "startLine": 10,
-                  "startColumn": 44,
-                  "endLine": 10,
-                  "endColumn": 58
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S3604",
-          "level": "warning",
-          "message": "Remove the member initializer, all constructors set an initial value for the member.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/Users/JoshMorton/Documents/_Personal/FinancialTracker/FinancialTracker/FinancialTracker/Models/Transaction.cs",
-                "region": {
-                  "startLine": 11,
-                  "startColumn": 45,
-                  "endLine": 11,
-                  "endColumn": 59
                 }
               }
             }
@@ -600,7 +669,7 @@
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///C:/Users/JoshMorton/Documents/_Personal/FinancialTracker/FinancialTracker/FinancialTracker/Pages/Index.cshtml.cs",
+                "uri": "file:///C:/Users/JoshMorton/Documents/_Personal/personalRepos/FinancialTracker/FinancialTracker/FinancialTracker/Pages/Privacy.cshtml.cs",
                 "region": {
                   "startLine": 15,
                   "startColumn": 15,
@@ -621,7 +690,7 @@
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///C:/Users/JoshMorton/Documents/_Personal/FinancialTracker/FinancialTracker/FinancialTracker/Pages/Privacy.cshtml.cs",
+                "uri": "file:///C:/Users/JoshMorton/Documents/_Personal/personalRepos/FinancialTracker/FinancialTracker/FinancialTracker/Pages/Index.cshtml.cs",
                 "region": {
                   "startLine": 15,
                   "startColumn": 15,
@@ -665,6 +734,20 @@
             ]
           }
         },
+        "CS8618": {
+          "id": "CS8618",
+          "shortDescription": "Non-nullable field must contain a non-null value when exiting constructor. Consider declaring as nullable.",
+          "defaultLevel": "warning",
+          "helpUri": "https://msdn.microsoft.com/query/roslyn.query?appId=roslyn&k=k(CS8618)",
+          "properties": {
+            "category": "Compiler",
+            "isEnabledByDefault": true,
+            "tags": [
+              "Compiler",
+              "Telemetry"
+            ]
+          }
+        },
         "S1186": {
           "id": "S1186",
           "shortDescription": "Methods should not be empty",
@@ -673,23 +756,6 @@
           "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-1186",
           "properties": {
             "category": "Critical Code Smell",
-            "isEnabledByDefault": true,
-            "tags": [
-              "C#",
-              "MainSourceScope",
-              "TestSourceScope",
-              "SonarWay"
-            ]
-          }
-        },
-        "S3604": {
-          "id": "S3604",
-          "shortDescription": "Member initializer values should not be redundant",
-          "fullDescription": "Fields, properties and events can be initialized either inline or in the constructor. Initializing them inline and in the constructor at the same time is redundant; the inline initialization will be overridden.",
-          "defaultLevel": "warning",
-          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-3604",
-          "properties": {
-            "category": "Minor Code Smell",
             "isEnabledByDefault": true,
             "tags": [
               "C#",
