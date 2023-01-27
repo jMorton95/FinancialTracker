@@ -5,15 +5,17 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace FinancialTracker.Models
 {
-    public class Transaction : BaseModel
+    public class Transaction
 	{
+        [Required, Key]
+        public int Id { get; set; }
         [Required, Precision(9, 2)]
-        public double Amount { get; } = 0;
+        public double Amount { get; set; } = 0;
         [Required, Column(TypeName = "DateTime2")]
-        public DateTime Date { get; } = DateTime.Now;
+        public DateTime Date { get; set; } = DateTime.Now;
         [MaxLength(50)]
-        public string Name { get; } = string.Empty;
+        public string Name { get; set; } = string.Empty;
         [MaxLength(50)]
-        public TransactionCategory Category { get; }
+        public TransactionCategory Category { get; set; }
 	}
 }

@@ -1,19 +1,40 @@
 using FinancialTracker.Models;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Configuration;
+using Microsoft.Extensions.Configuration.Json;
 
 var builder = WebApplication.CreateBuilder(args);
 
+/*var configuration = new ConfigurationBuilder().AddJsonFile($"appsettings.{Environment.MachineName}.json", optional: false, reloadOnChange: true).Build();
+var connectionString = configuration.GetConnectionString("userConnectionString");*/
+
 builder.Configuration.AddJsonFile("appsettings.json", optional: false, reloadOnChange: true);
 builder.Configuration.AddJsonFile($"appsettings.{Environment.MachineName}.json", optional: true, reloadOnChange: true);
+Console.WriteLine($"appsettings.{Environment.MachineName}.json");
 
-var environmentName = Environment.GetEnvironmentVariable("ENVIRONMENT_NAME");
+//builder.Configuration.AddJsonFile($"appsettings.{Environment.MachineName}.json", optional: false, reloadOnChange: true);
 
-if (!string.IsNullOrEmpty(environmentName)) builder.Configuration.AddJsonFile($"appsettings.{environmentName}.json");
+//Console.WriteLine($"{connectionString} test");
+/*builder.WebHost.ConfigureServices(config =>
+{
+    config.AddJsonFile("appsettings.json", optional: false, reloadOnChange: true);
+    config.AddJsonFile($"appsettings.{Environment.MachineName}.json", optional: true, reloadOnChange: true);
 
-builder.Configuration.AddEnvironmentVariables();
+    var environmentName = Environment.GetEnvironmentVariable("ENVIRONMENT_NAME");
 
-builder.Services.AddDbContext<FinanceDbContext>(
-    options => options.UseSqlServer("name=ConnectionStrings:DefaultConnection"));
+    if (!string.IsNullOrEmpty(environmentName)) builder.Configuration.AddJsonFile($"appsettings.{environmentName}.json");
+});
+*/
+
+/*
+
+builder.Configuration.AddEnvironmentVariables();*/
+
+builder.Services.AddDbContext<FinanceDbContext>(options =>
+{
+    var connString = builder.Configuration.GetConnectionString("userConnectionString");
+    options.UseSqlServer(connString);
+});
 
 
 // Add services to the container.

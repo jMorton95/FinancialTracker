@@ -3,13 +3,15 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace FinancialTracker.Models
 {
-    public class User : BaseModel
+    public class User
     {
+        [Required, Key]
+        public int Id { get; set; }
         [Required, Column(TypeName = "DateTime2")]
-        public DateTime DateOfBirth { get; }
+        public DateTime DateOfBirth { get; set; }
         [Required, MaxLength(50)]
-        public string Username { get; } = string.Empty;
+        public string Username { get; set; } = string.Empty;
         [Required]
-        public Guid Password { get; }
+        public Guid Password { get; set; }
     }
 }
