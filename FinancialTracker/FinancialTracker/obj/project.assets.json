@@ -524,11 +524,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\JoshMorton\\Documents\\_Personal\\FinancialTracker\\FinancialTracker\\FinancialTracker\\FinancialTracker.csproj",
+      "projectUniqueName": "C:\\Users\\JoshMorton\\Documents\\_Personal\\personalRepos\\FinancialTracker\\FinancialTracker\\FinancialTracker\\FinancialTracker.csproj",
       "projectName": "FinancialTracker",
-      "projectPath": "C:\\Users\\JoshMorton\\Documents\\_Personal\\FinancialTracker\\FinancialTracker\\FinancialTracker\\FinancialTracker.csproj",
+      "projectPath": "C:\\Users\\JoshMorton\\Documents\\_Personal\\personalRepos\\FinancialTracker\\FinancialTracker\\FinancialTracker\\FinancialTracker.csproj",
       "packagesPath": "C:\\Users\\JoshMorton\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\JoshMorton\\Documents\\_Personal\\FinancialTracker\\FinancialTracker\\FinancialTracker\\obj\\",
+      "outputPath": "C:\\Users\\JoshMorton\\Documents\\_Personal\\personalRepos\\FinancialTracker\\FinancialTracker\\FinancialTracker\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
