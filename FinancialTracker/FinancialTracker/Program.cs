@@ -9,7 +9,7 @@ builder.Configuration.AddJsonFile($"appsettings.{Environment.MachineName}.json",
 var environmentName = Environment.GetEnvironmentVariable("ENVIRONMENT_NAME");
 if (!string.IsNullOrEmpty(environmentName)) builder.Configuration.AddJsonFile($"appsettings.{environmentName}.json");
 
-
+Console.WriteLine(Environment.MachineName);
 builder.Services.AddDbContext<FinanceDbContext>(options =>
 {
     var connString = builder.Configuration.GetConnectionString("userConnectionString");
