@@ -10,11 +10,11 @@ builder.Configuration.AddJsonFile($"appsettings.{Environment.MachineName}.json",
 var environmentName = Environment.GetEnvironmentVariable("ENVIRONMENT_NAME");
 if (!string.IsNullOrEmpty(environmentName)) builder.Configuration.AddJsonFile($"appsettings.{environmentName}.json");
 
-builder.Services.AddDbContext<FinanceDbContext>(options =>
-{
-    var connString = builder.Configuration.GetConnectionString("userConnectionString");
-    options.UseSqlServer(connString);
-});
+var connString = builder.Configuration.GetConnectionString("userConnectionString");
+
+builder.Services.AddDbContext<FinanceDbContext>(options => options.UseSqlServer(connString));
+
+builder.Services.AddDatabaseDeveloperPageExceptionFilter();
 
 builder.Services.AddIdentityCore<FinanceDbContext>(options =>
 {
