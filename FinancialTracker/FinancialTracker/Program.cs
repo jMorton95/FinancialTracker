@@ -16,6 +16,10 @@ builder.Services.AddDbContext<FinanceDbContext>(options =>
     options.UseSqlServer(connString);
 });
 
+builder.Services.AddIdentityCore<FinanceDbContext>(options =>
+{
+    
+});
 
 // Add services to the container.
 builder.Services.AddRazorPages();
