@@ -9,8 +9,7 @@ namespace FinancialTracker.Models
         public int Id { get; set; }
         [MaxLength(50)]
         public string? Name { get; set; }
-        [Required, Precision(11, 2)]
-        public double Balance { get; set; }
+        public List<Balance>? BalanceHistory { get; set; }
         public List<Transaction>? TransactionHistory { get; set; }
 
       
