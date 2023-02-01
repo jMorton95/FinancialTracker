@@ -98,7 +98,6 @@ C:\Users\JoshMorton\Documents\_Personal\personalRepos\FinancialTracker\Financial
 C:\Users\JoshMorton\Documents\_Personal\personalRepos\FinancialTracker\FinancialTracker\FinancialTracker\obj\Debug\net7.0\FinancialTracker.pdb
 C:\Users\JoshMorton\Documents\_Personal\personalRepos\FinancialTracker\FinancialTracker\FinancialTracker\obj\Debug\net7.0\FinancialTracker.genruntimeconfig.cache
 C:\Users\JoshMorton\Documents\_Personal\personalRepos\FinancialTracker\FinancialTracker\FinancialTracker\obj\Debug\net7.0\ref\FinancialTracker.dll
-C:\Users\JoshMorton\Documents\_Personal\personalRepos\FinancialTracker\FinancialTracker\FinancialTracker\bin\Debug\net7.0\appsettings.{MyHomePC}.json
 C:\Users\JoshMorton\Documents\_Personal\personalRepos\FinancialTracker\FinancialTracker\FinancialTracker\bin\Debug\net7.0\Azure.Core.dll
 C:\Users\JoshMorton\Documents\_Personal\personalRepos\FinancialTracker\FinancialTracker\FinancialTracker\bin\Debug\net7.0\Azure.Identity.dll
 C:\Users\JoshMorton\Documents\_Personal\personalRepos\FinancialTracker\FinancialTracker\FinancialTracker\bin\Debug\net7.0\Microsoft.Bcl.AsyncInterfaces.dll
@@ -186,3 +185,5 @@ D:\1Programming\Personal Projects\financialtracker\FinancialTracker\FinancialTra
 D:\1Programming\Personal Projects\financialtracker\FinancialTracker\FinancialTracker\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
 D:\1Programming\Personal Projects\financialtracker\FinancialTracker\FinancialTracker\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
 D:\1Programming\Personal Projects\financialtracker\FinancialTracker\FinancialTracker\obj\Debug\net7.0\FinancialTracker.csproj.CopyComplete
+C:\Users\JoshMorton\Documents\_Personal\personalRepos\FinancialTracker\FinancialTracker\FinancialTracker\bin\Debug\net7.0\appsettings.WINDOWS-SUNNPQG.json
+C:\Users\JoshMorton\Documents\_Personal\personalRepos\FinancialTracker\FinancialTracker\FinancialTracker\bin\Debug\net7.0\Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.dll

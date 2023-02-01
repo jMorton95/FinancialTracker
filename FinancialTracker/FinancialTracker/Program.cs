@@ -1,4 +1,6 @@
 using FinancialTracker.Models;
+using FinancialTracker.Repositories;
+using FinancialTracker.Repositories.Interfaces;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 
@@ -16,10 +18,7 @@ builder.Services.AddDbContext<FinanceDbContext>(options => options.UseSqlServer(
 
 builder.Services.AddDatabaseDeveloperPageExceptionFilter();
 
-builder.Services.AddIdentityCore<FinanceDbContext>(options =>
-{
-    
-});
+builder.Services.AddScoped<IUserAccountRepository, UserAccountRepository>();
 
 // Add services to the container.
 builder.Services.AddRazorPages();
