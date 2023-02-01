@@ -18,8 +18,6 @@ builder.Services.AddDbContext<FinanceDbContext>(options => options.UseSqlServer(
 
 builder.Services.AddDatabaseDeveloperPageExceptionFilter();
 
-builder.Services.AddScoped<IUserAccountRepository, UserAccountRepository>();
-
 // Add services to the container.
 builder.Services.AddRazorPages();
 

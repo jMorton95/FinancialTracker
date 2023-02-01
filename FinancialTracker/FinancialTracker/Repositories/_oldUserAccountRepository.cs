@@ -1,4 +1,5 @@
-﻿using FinancialTracker.Models;
+﻿/*using FinancialTracker.Globals;
+using FinancialTracker.Models;
 using FinancialTracker.Repositories.Interfaces;
 
 namespace FinancialTracker.Repositories
@@ -22,11 +23,22 @@ namespace FinancialTracker.Repositories
             return await Task.FromResult(_context.Users.First(u => u.Id == id));
         }
 
-        public async Task<User>? GetByLoginAsync(string username, string password)
+        public async Task<int>? GetByLoginAsync(string username, string password)
         {
             int userId = await CheckLoginAsync(username, password);
             
-            return await GetByIdAsync(userId);
+            return userId;
+        }
+
+        public async Task SetGlobalUserId(string username, string password)
+        {
+            var userId = await GetByLoginAsync(username, password);
+            if (userId == 0) 
+            {
+                UserGlobals.SetUserId(userId);
+            }
+            
         }
     }
 }
+*/

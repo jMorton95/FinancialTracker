@@ -1,4 +1,4 @@
-﻿using FinancialTracker.Models;
+﻿/*using FinancialTracker.Models;
 
 namespace FinancialTracker.Repositories.Interfaces
 {
@@ -6,6 +6,8 @@ namespace FinancialTracker.Repositories.Interfaces
     {
         Task<User> GetByIdAsync(int id);
         Task<int> CheckLoginAsync(string username, string password);
-        Task<User>? GetByLoginAsync(string username, string password);
+        Task<int>? GetByLoginAsync(string username, string password);
+        Task SetGlobalUserId(string username, string password);
     }
 }
+*/
