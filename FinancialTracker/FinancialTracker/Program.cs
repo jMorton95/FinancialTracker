@@ -1,7 +1,8 @@
 using FinancialTracker.Models;
-using FinancialTracker.Repositories;
-using FinancialTracker.Repositories.Interfaces;
-using Microsoft.AspNetCore.Identity;
+using FinancialTracker.Services.Interfaces;
+using Microsoft.AspNetCore.Authentication;
+using Microsoft.AspNetCore.Authentication.Negotiate;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -17,6 +18,15 @@ var connString = builder.Configuration.GetConnectionString("userConnectionString
 builder.Services.AddDbContext<FinanceDbContext>(options => options.UseSqlServer(connString));
 
 builder.Services.AddDatabaseDeveloperPageExceptionFilter();
+
+builder.Services.AddScoped<IClaimsTransformation, FinanceAuthenticationService>();
+
+builder.Services.AddAuthentication(NegotiateDefaults.AuthenticationScheme).AddNegotiate();
+
+builder.Services.AddAuthorization(options =>
+{
+    options.FallbackPolicy = new AuthorizationPolicyBuilder().RequireClaim("IsMyDefaultUser").Build();
+});
 
 // Add services to the container.
 builder.Services.AddRazorPages();

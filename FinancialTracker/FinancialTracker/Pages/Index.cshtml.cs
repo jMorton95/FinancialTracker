@@ -1,5 +1,4 @@
-﻿using FinancialTracker.Globals;
-using FinancialTracker.Models;
+﻿using FinancialTracker.Models;
 using FinancialTracker.Repositories.Interfaces;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;

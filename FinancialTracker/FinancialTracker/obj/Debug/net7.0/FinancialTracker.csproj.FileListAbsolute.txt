@@ -187,3 +187,10 @@ D:\1Programming\Personal Projects\financialtracker\FinancialTracker\FinancialTra
 D:\1Programming\Personal Projects\financialtracker\FinancialTracker\FinancialTracker\obj\Debug\net7.0\FinancialTracker.csproj.CopyComplete
 C:\Users\JoshMorton\Documents\_Personal\personalRepos\FinancialTracker\FinancialTracker\FinancialTracker\bin\Debug\net7.0\appsettings.WINDOWS-SUNNPQG.json
 C:\Users\JoshMorton\Documents\_Personal\personalRepos\FinancialTracker\FinancialTracker\FinancialTracker\bin\Debug\net7.0\Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.dll
+C:\Users\JoshMorton\Documents\_Personal\personalRepos\FinancialTracker\FinancialTracker\FinancialTracker\bin\Debug\net7.0\Microsoft.AspNetCore.Authentication.Negotiate.dll
+C:\Users\JoshMorton\Documents\_Personal\personalRepos\FinancialTracker\FinancialTracker\FinancialTracker\bin\Debug\net7.0\Microsoft.AspNetCore.Connections.Abstractions.dll
+C:\Users\JoshMorton\Documents\_Personal\personalRepos\FinancialTracker\FinancialTracker\FinancialTracker\bin\Debug\net7.0\Microsoft.Extensions.Features.dll
+C:\Users\JoshMorton\Documents\_Personal\personalRepos\FinancialTracker\FinancialTracker\FinancialTracker\bin\Debug\net7.0\System.DirectoryServices.Protocols.dll
+C:\Users\JoshMorton\Documents\_Personal\personalRepos\FinancialTracker\FinancialTracker\FinancialTracker\bin\Debug\net7.0\runtimes\linux\lib\net7.0\System.DirectoryServices.Protocols.dll
+C:\Users\JoshMorton\Documents\_Personal\personalRepos\FinancialTracker\FinancialTracker\FinancialTracker\bin\Debug\net7.0\runtimes\osx\lib\net7.0\System.DirectoryServices.Protocols.dll
+C:\Users\JoshMorton\Documents\_Personal\personalRepos\FinancialTracker\FinancialTracker\FinancialTracker\bin\Debug\net7.0\runtimes\win\lib\net7.0\System.DirectoryServices.Protocols.dll
