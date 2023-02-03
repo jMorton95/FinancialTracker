@@ -7,26 +7,31 @@ using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
+///<summary>Sets up our machine name & environment name based configuration files for development</summary>
+var environmentName = Environment.GetEnvironmentVariable("ENVIRONMENT_NAME");
 builder.Configuration.AddJsonFile("appsettings.json", optional: false, reloadOnChange: true);
 builder.Configuration.AddJsonFile($"appsettings.{Environment.MachineName}.json", optional: true, reloadOnChange: true);
+if (!string.IsNullOrEmpty(environmentName))
+{
+    builder.Configuration.AddJsonFile($"appsettings.{environmentName}.json");
+}
 
-var environmentName = Environment.GetEnvironmentVariable("ENVIRONMENT_NAME");
-if (!string.IsNullOrEmpty(environmentName)) builder.Configuration.AddJsonFile($"appsettings.{environmentName}.json");
-
+///<summary>Register our database connection based on environment specific connsection string</summary>
 var connString = builder.Configuration.GetConnectionString("userConnectionString");
-
 builder.Services.AddDbContext<FinanceDbContext>(options => options.UseSqlServer(connString));
-
 builder.Services.AddDatabaseDeveloperPageExceptionFilter();
 
+///<summary>Register all dependencies</summary>
 builder.Services.AddScoped<IClaimsTransformation, FinanceAuthenticationService>();
 builder.Services.AddHttpClient();
 
+///<summary>Set our claims based authentication & authorization</summary>
 builder.Services.AddAuthentication(NegotiateDefaults.AuthenticationScheme).AddNegotiate();
-
 builder.Services.AddAuthorization(options =>
 {
-    options.FallbackPolicy = new AuthorizationPolicyBuilder().RequireClaim("IsMyDefaultUser").Build();
+    options.FallbackPolicy = new AuthorizationPolicyBuilder()
+            .RequireClaim("IsAHuman")
+            .Build();
 });
 
 // Add services to the container.
