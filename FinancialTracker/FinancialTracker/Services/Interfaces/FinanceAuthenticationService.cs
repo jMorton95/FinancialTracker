@@ -18,7 +18,7 @@ namespace FinancialTracker.Services.Interfaces
             var validateApprovedUser = _context.Users.FirstOrDefault(x => x.Username == "Klavelon");
             if (validateApprovedUser != null)
             {
-                claimsIdentity.AddClaim(new Claim("IsMyDefaultUser", "true"));
+                claimsIdentity.AddClaim(new Claim("IsAHuman", "true"));
                 principal.AddIdentity(claimsIdentity);
             }
 
