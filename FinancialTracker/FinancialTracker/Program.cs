@@ -1,4 +1,5 @@
 using FinancialTracker.Models;
+using FinancialTracker.Services;
 using FinancialTracker.Services.Interfaces;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authentication.Negotiate;
@@ -20,6 +21,7 @@ builder.Services.AddDbContext<FinanceDbContext>(options => options.UseSqlServer(
 builder.Services.AddDatabaseDeveloperPageExceptionFilter();
 
 builder.Services.AddScoped<IClaimsTransformation, FinanceAuthenticationService>();
+builder.Services.AddScoped<IUserService, UserService>();
 
 builder.Services.AddAuthentication(NegotiateDefaults.AuthenticationScheme).AddNegotiate();
 

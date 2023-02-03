@@ -4,7 +4,7 @@ namespace FinancialTracker.Services.Interfaces
 {
     public interface IUserService
     {
-        List<User> GetAllUsers();
+        Task<List<User>> GetAllUsers();
         User GetById(int id);
     }
 }
