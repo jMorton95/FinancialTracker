@@ -25,7 +25,6 @@ builder.Services.AddDatabaseDeveloperPageExceptionFilter();
 ///<summary>Register all dependencies</summary>
 builder.Services.AddScoped<IClaimsTransformation, FinanceAuthenticationService>();
 builder.Services.AddScoped<IUserService, UserService>();
-builder.Services.AddHttpClient();
 
 ///<summary>Set our claims based authentication & authorization</summary>
 builder.Services.AddAuthentication(NegotiateDefaults.AuthenticationScheme).AddNegotiate();

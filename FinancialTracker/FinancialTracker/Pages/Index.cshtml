@@ -5,6 +5,10 @@
     ViewData["Title"] = "Home page";
 }
 
+
 @foreach(var user in Model.Users) {
-    <div>@user.Password</div>
+    if (user != null)
+    {
+        <div>@user.Username</div>
+    }
 }

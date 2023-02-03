@@ -1,15 +1,13 @@
 ﻿using FinancialTracker.Models;
 using FinancialTracker.Repositories.Interfaces;
 using FinancialTracker.Services.Interfaces;
-using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
-using FinancialTracker.API;
+using System.Text.Json;
 
 namespace FinancialTracker.Pages
 {
 	public class IndexModel : PageModel
 	{
-		private readonly HttpClient _client;
 		private readonly ILogger<IndexModel> _logger;
 		private readonly IUserService _userService;
 		public List<User> Users { get; set; }
@@ -30,5 +28,15 @@ namespace FinancialTracker.Pages
 		{
 			
 		}
-	}
+
+      /*  public async void DEPRECATEDOnApiGet()
+        {
+            //This works, but fails at the authentication level due to the access an the app has
+            var response = await _client.GetAsync("https://localhost:7285/api/users/");
+            response.EnsureSuccessStatusCode();
+            Console.WriteLine(await response.Content.ReadAsStringAsync());
+            var content = await response.Content.ReadAsStringAsync();
+            Users = JsonSerializer.Deserialize<List<User>>(content);
+        }*/
+    }
 }
