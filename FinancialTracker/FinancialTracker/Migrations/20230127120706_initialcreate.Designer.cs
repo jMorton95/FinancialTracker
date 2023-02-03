@@ -13,7 +13,9 @@ namespace FinancialTracker.Migrations
 {
     [DbContext(typeof(FinanceDbContext))]
     [Migration("20230127120706_initialcreate")]
+#pragma warning disable CS8981 // The type name only contains lower-cased ascii characters. Such names may become reserved for the language.
     partial class initialcreate
+#pragma warning restore CS8981 // The type name only contains lower-cased ascii characters. Such names may become reserved for the language.
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)

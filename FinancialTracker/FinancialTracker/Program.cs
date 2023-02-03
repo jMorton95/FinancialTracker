@@ -20,6 +20,7 @@ builder.Services.AddDbContext<FinanceDbContext>(options => options.UseSqlServer(
 builder.Services.AddDatabaseDeveloperPageExceptionFilter();
 
 builder.Services.AddScoped<IClaimsTransformation, FinanceAuthenticationService>();
+builder.Services.AddHttpClient();
 
 builder.Services.AddAuthentication(NegotiateDefaults.AuthenticationScheme).AddNegotiate();
 
@@ -30,6 +31,10 @@ builder.Services.AddAuthorization(options =>
 
 // Add services to the container.
 builder.Services.AddRazorPages();
+builder.Services.AddMvc(options =>
+{
+    options.EnableEndpointRouting = false;
+});
 
 var app = builder.Build();
 
@@ -51,5 +56,6 @@ app.UseRouting();
 app.UseAuthorization();
 
 app.MapRazorPages();
+app.UseMvc();
 
 app.Run();
