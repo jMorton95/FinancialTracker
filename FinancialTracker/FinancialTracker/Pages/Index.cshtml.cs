@@ -1,8 +1,7 @@
 ﻿using FinancialTracker.Models;
-using FinancialTracker.Repositories.Interfaces;
 using FinancialTracker.Services.Interfaces;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
-using System.Text.Json;
 
 namespace FinancialTracker.Pages
 {
@@ -10,7 +9,7 @@ namespace FinancialTracker.Pages
 	{
 		private readonly ILogger<IndexModel> _logger;
 		private readonly IUserService _userService;
-		public List<User> Users { get; set; }
+		public List<User>? Users { get; set;  }
 		
 
 		public IndexModel(ILogger<IndexModel> logger, IUserService userService)
@@ -19,9 +18,10 @@ namespace FinancialTracker.Pages
 			_userService = userService;
 		}
 
-		public async void OnGet()
+		public async Task<ActionResult> OnGet()
 		{
 			Users = await _userService.GetAllUsers();
+			return Page();
 		}
 
 		public void OnPost(string username, string password)

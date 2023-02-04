@@ -6,9 +6,13 @@
 }
 
 
-@foreach(var user in Model.Users) {
-    if (user != null)
+@if(Model.Users != null)
+{
+    @foreach (var user in Model.Users)
     {
-        <div>@user.Username</div>
+        if (user != null)
+        {
+            <div>@user.Username</div>
+        }
     }
 }
