@@ -2,7 +2,7 @@
 using Microsoft.AspNetCore.Authentication;
 using System.Security.Claims;
 
-namespace FinancialTracker.Services.Interfaces
+namespace FinancialTracker.Services
 {
     public class FinanceAuthenticationService : IClaimsTransformation
     {
